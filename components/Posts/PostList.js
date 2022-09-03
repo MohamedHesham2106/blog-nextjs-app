@@ -4,7 +4,7 @@ const PostList = ({ posts }) => {
   return (
     <ul className={styles.list}>
       {posts.map((post) => (
-        <PostItem key={post.id} />
+        <PostItem key={post.slug} post={post} />
       ))}
     </ul>
   );
