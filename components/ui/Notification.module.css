@@ -30,7 +30,7 @@
 }
 
 .error {
-  background-color: #a10c4a;
+  background-color: crimson;
 }
 
 @media (min-width: 768px) {

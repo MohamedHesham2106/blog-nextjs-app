@@ -63,14 +63,14 @@ const ContactForm = () => {
   if (status === "success") {
     notificationStatus = {
       status,
-      title: "Message Received!",
+      title: "Message Received",
       message: "Your message has been sent!",
     };
   }
   if (status === "error") {
     notificationStatus = {
       status,
-      title: "Error!",
+      title: "Error",
       message: error,
     };
   }
