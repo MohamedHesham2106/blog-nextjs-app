@@ -32,6 +32,9 @@
 .header a.active {
   color: #ba4b44;
 }
+.active {
+  color: #ba4b44;
+}
 
 @media (min-width: 768px) {
   .header ul {
@@ -41,4 +44,5 @@
   .header a {
     font-size: 1.1rem;
   }
+  
 }
