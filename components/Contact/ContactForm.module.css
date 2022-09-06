@@ -1,35 +1,35 @@
 .contact {
-  margin: var(--size-8) auto;
-  border-radius: 6px;
-  background-color: var(--color-grey-100);
+  margin: 2rem auto;
+  border-radius: 2px;
+  background-color: #ccc;
   width: 90%;
-  max-width: 50rem;
-  padding: var(--size-4);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  font-size: var(--size-6);
+  max-width: 45rem;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
 }
 
 .contact h1 {
-  font-size: var(--size-8);
-  margin: var(--size-4) 0;
+  font-size: 2rem;
+  margin: 1rem 0;
   text-align: left;
 }
 
 .form label {
   display: block;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
-  margin: var(--size-2) 0 var(--size-1) 0;
+  margin: 0.5rem 0 0.25rem 0;
 }
 
 .form input,
 .form textarea {
   font: inherit;
-  padding: var(--size-1);
-  border-radius: 4px;
+  padding: 0.25;
+  border-radius: 2px;
   width: 100%;
-  border: 1px solid var(--color-grey-400);
-  background-color: var(--color-grey-50);
+  border: 1px solid #000;
+  background-color: #dad6d5;
   resize: none;
 }
 
@@ -45,29 +45,29 @@
 }
 
 .actions {
-  margin-top: var(--size-4);
+  margin-top: 1rem;
   text-align: right;
 }
 
 .form button {
   font: inherit;
   cursor: pointer;
-  background-color: var(--color-primary-700);
-  border: 1px solid var(--color-primary-700);
-  padding: var(--size-2) var(--size-4);
+  background-color: #e94d42;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
   border-radius: 4px;
-  color: var(--color-primary-50);
+  color: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .form button:hover {
-  background-color: var(--color-primary-500);
-  border-color: var(--color-primary-500);
+  background-color: #ba4b44;
+  border-color: #000;
 }
 
 @media (min-width: 768px) {
   .contact h1 {
-    font-size: var(--size-16);
+    font-size: 2rem;
     text-align: center;
   }
 }

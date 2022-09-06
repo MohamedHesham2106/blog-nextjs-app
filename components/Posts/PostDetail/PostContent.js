@@ -3,7 +3,7 @@ import PostHeader from "./PostHeader";
 import ReactMarkdown from "react-markdown";
 import Image from "next/image";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { nightOwl } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 const PostContent = (props) => {
   const { post } = props;
   const { slug, image, title, content } = post;
@@ -34,7 +34,7 @@ const PostContent = (props) => {
       const { className, children } = code;
       const language = className.split("-")[1];
       return (
-        <SyntaxHighlighter style={nightOwl} language={language}>
+        <SyntaxHighlighter style={atomDark} language={language}>
           {children}
         </SyntaxHighlighter>
       );

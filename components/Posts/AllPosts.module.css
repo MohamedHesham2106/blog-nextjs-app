@@ -1,17 +1,19 @@
 .posts {
   width: 90%;
   max-width: 60rem;
-  margin: var(--size-8) auto;
+  margin: 2rem auto;
 }
 
 .posts h1 {
-  font-size: var(--size-8);
-  color: var(--color-grey-800);
+  font-size: 2rem;
+  color: #fff;
+  padding:1rem;
+  border-bottom: 1px solid #fff;
   text-align: center;
 }
 
 @media (min-width: 768px) {
   .posts h1 {
-    font-size: var(--size-16);
+    font-size: 3rem;
   }
 }
