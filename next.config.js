@@ -15,7 +15,10 @@ module.exports = (phase) => {
   }
   return {
     env: {
-      server: process.env.SERVER,
+      mongodb_username: process.env.DB_USERNAME,
+      mongodb_password: process.env.DB_PASSWORD,
+      mongodb_cluster_name: process.env.CLUSTER,
+      mongodb_database: process.env.DATABASE,
     },
   };
 };
